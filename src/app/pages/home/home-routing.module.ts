@@ -4,6 +4,8 @@ import { CommonModule } from "@angular/common";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { UsuariosComponent } from "./usuarios/usuarios.component";
 import { HomeComponent } from "./home.component";
+import { RolComponent } from "./rol/rol.component";
+import { AreaComponent } from "./area/area.component";
 
 const routes: Routes = [
     {
@@ -19,9 +21,19 @@ const routes: Routes = [
                 path: 'dashboard',
                 component: DashboardComponent
             },
-            {   path: 'usuarios',
+            {
+                path: 'usuarios',
                 component: UsuariosComponent
+            },
+            {
+                path: 'rol',
+                component: RolComponent
+            },
+            {
+                path: 'area',
+                component: AreaComponent
             }
+
         ]
     }
 ];

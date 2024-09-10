@@ -10,6 +10,8 @@ import { UsuariosComponent } from "./usuarios/usuarios.component";
 import { SidebarComponent } from "../../general/shared/sidebar/sidebar.component";
 import { HeaderComponent } from "../../general/shared/header/header.component";
 import { FooterComponent } from "../../general/shared/footer/footer.component";
+import { RolComponent } from './rol/rol.component';
+import { AreaComponent } from './area/area.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from "../../general/shared/footer/footer.component";
         UsuariosComponent,        
         SidebarComponent,
         HeaderComponent,
-        FooterComponent
+        FooterComponent,
+        RolComponent,
+        AreaComponent
     ],
     imports: [
         HomeRoutingModule,
