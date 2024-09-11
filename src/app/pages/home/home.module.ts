@@ -12,6 +12,7 @@ import { HeaderComponent } from "../../general/shared/header/header.component";
 import { FooterComponent } from "../../general/shared/footer/footer.component";
 import { RolComponent } from './rol/rol.component';
 import { AreaComponent } from './area/area.component';
+import { PermisosComponent } from './permisos/permisos.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { AreaComponent } from './area/area.component';
         HeaderComponent,
         FooterComponent,
         RolComponent,
-        AreaComponent
+        AreaComponent,
+        PermisosComponent
     ],
     imports: [
         HomeRoutingModule,

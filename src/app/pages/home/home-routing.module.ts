@@ -6,6 +6,7 @@ import { UsuariosComponent } from "./usuarios/usuarios.component";
 import { HomeComponent } from "./home.component";
 import { RolComponent } from "./rol/rol.component";
 import { AreaComponent } from "./area/area.component";
+import { PermisosComponent } from "./permisos/permisos.component";
 
 const routes: Routes = [
     {
@@ -32,6 +33,10 @@ const routes: Routes = [
             {
                 path: 'area',
                 component: AreaComponent
+            },
+            {
+                path: 'permisos',
+                component: PermisosComponent
             }
 
         ]
